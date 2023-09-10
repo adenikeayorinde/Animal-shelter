@@ -118,6 +118,7 @@ h3{
     font-size: 4.5rem;
     font-size: 3.5rem;
     text-transform: capitalize;
+    text-align: center;
 }
 .content{
     text-align: center;
@@ -137,7 +138,7 @@ img{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 1rem;
-    margin-top: 10%;
+    margin-top: 5%;
 }
 .content{
     flex:1 1 40rem;
@@ -163,6 +164,7 @@ p{
     margin-bottom: 5%;
     padding: 0px 2px;
     box-sizing: border-box;
+    text-align: center;
 }
 h4{
     font-size: 50px;
@@ -172,6 +174,58 @@ h4{
     margin-left:10%;
     color:#f44336
 }
+.pet-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+.pet-col h1{
+    margin-top:5%;
+}
+h5{
+    font-size: 20px;
+    text-transform:capitalize;
+    text-align:center;
+    margin:5%;
+}
+.service-col{
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom:30px;
+    position: relative;
+    overflow:hidden;
+}
+.service-col img{
+    width:100%;
+}
+.layer{
+    background: transparent;
+    height: 100%;
+    width:100%;
+    position:absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+    text-align:center;
+}
+.layer:hover{
+    background: rgba(226,0,0.7);
+}
+.layer h6{
+    width: 100%;
+    font-weight:500;
+    color: #fff;
+    font-size: 26px;
+    bottom: 0;
+    left: 50%;
+    transform: translatex(-50%);
+    position: absolute;
+    opacity:0;
+    transition: 0.5s;
+}
+.layer:hover h6{
+    bottom:49%;
+    opacity: 1;
+}
+
 
 
 
